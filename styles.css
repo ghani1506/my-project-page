@@ -1,47 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Showcase - School of Chemistry, University of Bristol</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Reset some basic elements to provide a clean slate */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
 
-<header>
-    <h1>Project Showcase</h1>
-    <h2>School of Chemistry, University of Bristol</h2>
-</header>
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-<main>
-    <section class="section">
-        <h2>Welcome</h2>
-        <p>Welcome to the project showcase page! This platform is dedicated to presenting my individual project, developed in collaboration with the academic staff of the School of Chemistry at the University of Bristol.</p>
-    </section>
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-    <section class="section">
-        <h2>About the Project</h2>
-        <p>This project explores <strong>[specific topic/area of research]</strong>, focusing on <strong>[key aspects or goals]</strong>. The work includes detailed experimental procedures, data analysis, and theoretical insights that contribute to the field of chemistry.</p>
-    </section>
+header .banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
 
-    <section class="section">
-        <h2>Navigation</h2>
-        <p>Use the links below to navigate through the various sections of the project:</p>
-        <ul>
-            <li><a href="#introduction" class="button">Introduction</a></li>
-            <li><a href="#methodology" class="button">Methodology</a></li>
-            <li><a href="#results" class="button">Results</a></li>
-            <li><a href="#discussion" class="button">Discussion</a></li>
-            <li><a href="#conclusion" class="button">Conclusion</a></li>
-            <li><a href="#references" class="button">References</a></li>
-        </ul>
-    </section>
-</main>
+header h1, header h2 {
+    margin: 10px 0;
+}
 
-<footer>
-    <p>© 2024 University of Bristol, School of Chemistry. All rights reserved.</p>
-</footer>
+header h3 {
+    margin: 20px 0 10px;
+}
 
-<script src="script.js"></script>
-</body>
-</html>
+/* Resized image class */
+.resized-image {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make the image round */
+    display: block;
+    margin: 10px auto; /* Center the image horizontally */
+}
+
+/* Main content section styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.section p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styles for navigation */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

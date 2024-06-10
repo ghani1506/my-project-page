@@ -37,8 +37,8 @@
     <section class="section">
         <h2>Phases of Implementations</h2>
         <p>Here are the processes involved in the project:</p>
-        <ul>
-            <li><a href="#Phase 1" class="button">Introduction</a></li>
+        <ul
+            <li><a href="#Phase 1" id="introduction-link" class="button">Introduction</a></li>
             <li><a href="#Phase 2" class="button">Methodology</a></li>
             <li><a href="#Phase 3" class="button">Results</a></li>
             <li><a href="#Phase 4" class="button">Discussion</a></li>
@@ -46,6 +46,23 @@
             <li><a href="#Phase 6" class="button">References</a></li>
         </ul>
     </section>
+
+<script>
+    // Get the link element for Introduction
+    var introductionLink = document.getElementById("introduction-link");
+
+    // Add a click event listener to the Introduction link
+    introductionLink.addEventListener("click", function(event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Change the href attribute of the link to the path of your JPG image
+        this.href = "process_1.jpg";
+
+        // Open the link in a new tab
+        window.open(this.href, "_blank");
+    });
+</script>
 </main>
 
 <footer>

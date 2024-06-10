@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Title - Teaching new Tricks to Academic Staff of School of Chemistry, University of Bristol</title>
+    <title>Project Title - Teaching New Tricks to Academic Staff of School of Chemistry, University of Bristol</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,136 +12,55 @@
     <div class="banner">
         <img src="banner.jpg" alt="School of Chemistry, University of Bristol">
     </div>
-    <h1>Project Title : Teaching New Tricks to Academic Staff</h1>
-    <h2>by : Mohammad Ghani bin Awang Ahmad<h2>
-    <h2>Student Number : 2472050<h2>
-    </h2>School of Chemistry, University of Bristol</h2>
+    <h1>Project Title: Teaching New Tricks to Academic Staff</h1>
+    <h2>by: Mohammad Ghani bin Awang Ahmad</h2>
+    <h2>Student Number: 2472050</h2>
+    <h2>School of Chemistry, University of Bristol</h2>
     <img src="my_picture.png" alt="My Picture">
 </header>
 
 <main>
-    <section class="section">
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Welcome')">Welcome</button>
+        <button class="tablinks" onclick="openTab(event, 'ProjectInfo')">Project Information Background</button>
+        <button class="tablinks" onclick="openTab(event, 'Purpose')">Purpose</button>
+        <button class="tablinks" onclick="openTab(event, 'Objectives')">Objectives</button>
+        <button class="tablinks" onclick="openTab(event, 'Phases')">Phases of Implementation</button>
+    </div>
+
+    <div id="Welcome" class="tabcontent">
         <h2>Welcome</h2>
-        <p>Welcome to the project showcase page! This platform is dedicated to provide an overview about my individual project.</p>
-    </section>
-    <section class="section">
+        <p>Welcome to the project showcase page! This platform is dedicated to providing an overview of my individual project.</p>
+    </div>
+
+    <div id="ProjectInfo" class="tabcontent">
         <h2>Project Information Background</h2>
         <p>The project "Teaching New Tricks to Academic Staff" is a collaborative initiative aimed at providing essential insights and best practices for academic staff at the University of Bristol (UoB). The project focuses on addressing the challenges posed by the COVID-19 pandemic in the delivery of teaching for coding and data science courses.</p>
-    </section>
-    <section class="section">
+    </div>
+
+    <div id="Purpose" class="tabcontent">
         <h2>Purpose</h2>
         <p>The main purpose of this project is to compile and develop a comprehensive set of strategies and best practices to support academic staff in effectively delivering coding and data science courses in COVID-19 settings. One of the innovative strategies proposed is Gamified Pair Programming (GPP), aimed at enhancing student engagement and collaborative learning experiences.</p>
-    </section>
-    <section class="section">
+    </div>
+
+    <div id="Objectives" class="tabcontent">
         <h2>Objectives</h2>
         <p>There are 2 objectives set for this project:</p>
-        <p><strong>Objective 1</strong> : To discover and test a new method, which is game-based pair programming, for teaching coding and data science during the Covid-19 phase using existing research.</p>
-        <p><strong>Objective 2</strong> : To develop short training plan for staff to be deployed and tested during the final phase to validate the selected trick.</p>
-    <section class="section">
-    <h2>Phases of Implementations</h2>
-    <p>Here are the processes involved in the project:</p>
-    <a href="#phase-one" class="button">Phase One - GPP Demonstration</a>
-    <ul>
-        <li><a href="#process_1" id="process_1" class="button">Process 1</a></li>
-        <li><a href="#process_2" id="process_2" class="button">Process 2</a></li>
-        <li><a href="#process_3" id="process_3" class="button">Process 3</a></li>
-        <li><a href="#process_4" id="process_4" class="button">Process 4</a></li>
-        <li><a href="#process_5" id="process_5" class="button">Process 5</a></li>
-    </ul>
-    <a href="#phase-two" class="button">Phase Two - Interviews</a>
-    <ul>
-        <li><a href="#interview_1" id="interview_1" class="button">Lecturer 1</a></li>
-        <li><a href="#interview_2" id="interview_2" class="button">Lecturer 2</a></li>
-    </ul>
-    <a href="#phase-three" class="button">Phase Three - Data Analysis</a>
-    <ul>
-        <li><a href="#questionnaire" id="questionnaire" class="button">Questionnaire Results</a></li>
-        <li><a href="#interview" id="interview" class="button">Interview Results</a></li>
-</section>
-<script>
-    // Get the link element for Process 1
-    var process1Link = document.getElementById("process_1");
+        <p><strong>Objective 1</strong>: To discover and test a new method, which is game-based pair programming, for teaching coding and data science during the Covid-19 phase using existing research.</p>
+        <p><strong>Objective 2</strong>: To develop a short training plan for staff to be deployed and tested during the final phase to validate the selected trick.</p>
+    </div>
 
-    // Add a click event listener to the Process 1 link
-    process1Link.addEventListener("click", function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Change the href attribute of the link to the path of your JPG image
-        this.href = "process_1.jpg";
-
-        // Open the link in a new tab
-        window.open(this.href, "_blank");
-    });
-</script>
-
-<script>
-    // Get the link element for Process 2
-    var process2Link = document.getElementById("process_2");
-
-    // Add a click event listener to the Process 2 link
-    process2Link.addEventListener("click", function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Change the href attribute of the link to the path of your JPG image
-        this.href = "process_2.jpg";
-
-        // Open the link in a new tab
-        window.open(this.href, "_blank");
-    });
-</script>
-
-<script>
-    // Get the link element for Process 3
-    var process3Link = document.getElementById("process_3");
-
-    // Add a click event listener to the Process 3 link
-    process3Link.addEventListener("click", function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Change the href attribute of the link to the path of your JPG image
-        this.href = "process_3.jpg";
-
-        // Open the link in a new tab
-        window.open(this.href, "_blank");
-    });
-</script>
-
-<script>
-    // Get the link element for Process 4
-    var process4Link = document.getElementById("process_4");
-
-    // Add a click event listener to the Process 4 link
-    process4Link.addEventListener("click", function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Change the href attribute of the link to the path of your JPG image
-        this.href = "process_4.jpg";
-
-        // Open the link in a new tab
-        window.open(this.href, "_blank");
-    });
-</script>
-
-<script>
-    // Get the link element for Process 5
-    var process5Link = document.getElementById("process_5");
-
-    // Add a click event listener to the Process 5 link
-    process5Link.addEventListener("click", function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Change the href attribute of the link to the path of your JPG image
-        this.href = "process_5.jpg";
-
-        // Open the link in a new tab
-        window.open(this.href, "_blank");
-    });
-</script>
+    <div id="Phases" class="tabcontent">
+        <h2>Phases of Implementation</h2>
+        <p>Here are the processes involved in the project:</p>
+        <ul>
+            <li><a href="process_1.jpg" target="_blank">Process 1</a></li>
+            <li><a href="process_2.jpg" target="_blank">Process 2</a></li>
+            <li><a href="process_3.jpg" target="_blank">Process 3</a></li>
+            <li><a href="process_4.jpg" target="_blank">Process 4</a></li>
+            <li><a href="process_5.jpg" target="_blank">Process 5</a></li>
+        </ul>
+    </div>
 </main>
 
 <footer>

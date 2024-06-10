@@ -39,11 +39,11 @@
         <p>Here are the processes involved in the project:</p>
         <ul
             <li><a href="#Phase 1" id="Process 1" class="button">Phase 1</a></li>
-            <li><a href="#Phase 2" class="button">Methodology</a></li>
-            <li><a href="#Phase 3" class="button">Results</a></li>
-            <li><a href="#Phase 4" class="button">Discussion</a></li>
-            <li><a href="#Phase 5" class="button">Conclusion</a></li>
-            <li><a href="#Phase 6" class="button">References</a></li>
+            <li><a href="#Phase 1" id="Process 2" class="button">Phase 2</a></li>
+            <li><a href="#Phase 1" id="Process 3" class="button">Phase 3</a></li>
+            <li><a href="#Phase 1" id="Process 4" class="button">Phase 4</a></li>
+            <li><a href="#Phase 1" id="Process 5" class="button">Phase 5</a></li>
+            <li><a href="#Phase 1" id="Process 6" class="button">Phase 6</a></li>
         </ul>
     </section>
 
@@ -58,6 +58,39 @@
 
         // Change the href attribute of the link to the path of your JPG image
         this.href = "process_1.jpg";
+
+        // Open the link in a new tab
+        window.open(this.href, "_blank");
+    });
+</script>
+
+<script>
+    // Get the link element for Introduction
+    var introductionLink = document.getElementById("Process 2");
+
+    // Add a click event listener to the Introduction link
+    introductionLink.addEventListener("click", function(event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Change the href attribute of the link to the path of your JPG image
+        this.href = "process_2.jpg";
+
+        // Open the link in a new tab
+        window.open(this.href, "_blank");
+    });
+</script>
+<script>
+    // Get the link element for Introduction
+    var introductionLink = document.getElementById("Process 3");
+
+    // Add a click event listener to the Introduction link
+    introductionLink.addEventListener("click", function(event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Change the href attribute of the link to the path of your JPG image
+        this.href = "process_2.jpg";
 
         // Open the link in a new tab
         window.open(this.href, "_blank");
